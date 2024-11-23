@@ -1,0 +1,111 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", serif;
+    padding-top: 8rem;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.2rem;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    box-shadow: 1rem 1rem 1rem 0 black;
+}
+
+.image-container{
+   margin-bottom: 1.5rem;
+}
+
+.image-container img{
+    border-radius: 0.8rem;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.learn{
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline;
+}
+
+.date {
+    color: hsl(0, 0%, 7%);
+    margin: 1rem 0 ;
+    font-size: 12px;
+}
+
+h2{
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 7%);
+    font-size: 1.2rem;
+}
+
+h2:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+p:nth-child(2){
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.profile img{
+    width: 40px;
+    height: auto;
+    border: radius 50%;
+    margin-right: 1rem;
+}
+
+.profile p{
+    font-weight: bolder;
+    color: hsl(0, 0%, 7%);
+    padding-top: 10px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: black;
+}
+
+.attribution a:active{
+    color: black;
+}
+
+.attribution a:hover, .attribution a:focus, .attribution p a:hover, .attribution p a:focus{
+    color: hsl(0, 0%, 42%);
+    transition: 0.5s;
+}
+
+.attribution a:visited{
+    color:hsl(0, 0%, 7%) ;
+}
+
